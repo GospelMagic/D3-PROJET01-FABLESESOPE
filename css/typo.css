@@ -1,0 +1,116 @@
+/* Polices utilisés dans le header */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap&subset=latin-ext');
+/* Polices utilisés dans fable01 */
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap&subset=latin-ext');
+/* Polices utilisés dans fable02 */
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+/* Polices utilisés dans fable03 */
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Oswald:200,300,400,500,600,700&display=swap&subset=latin-ext');
+/* Polices utilisés dans fable04 */
+
+
+header {
+  font-family: 'Bree Serif', serif;
+}
+
+header h1 {
+  font-size: 4.25em;
+  text-align: center;
+}
+
+header p {
+  font-size: 2.25em;
+}
+
+/* Styles partagés par tous les éléments ayant la même class */
+
+.fable-moral {
+  font-size: 3.052em;
+  margin: 2.75rem 0 1rem;
+}
+
+/* Styles utilisés dans fable01 */
+
+#fable01 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#fable01 h2 {
+  font-size: 3.052em;
+  margin: 2.75rem 0 2.75rem 0;
+  font-family: 'Josefin Sans', serif;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+#fable01 p {
+  margin-bottom: 1.25em;
+}
+
+#fable01 .fable-moral {
+    font-family: 'Anton', sans-serif;
+    text-align: right;
+
+}
+
+/* Styles utilisés dans fable02 */
+
+#fable02 {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+#fable02 h2 {
+  font-family: 'Raleway', ;
+  font-size: 8em;
+}
+
+#fable02 {
+
+}
+
+
+#fable03 {
+  font-family: 'Bebas Neue', monospace;
+}
+
+/* titre le renard et le lion */
+#fable03 h2 {
+  font-family: 'Bebas Neue', serif;
+  margin: 0;
+  color: white;
+  font-size: 15em;
+  line-height: 1;
+  text-align: right;
+}
+
+
+
+/* Styles utilisés dans fable04 */
+
+#fable04 {
+font-family: 'Oswald', cursive;
+}
+
+#fable04 h2 {
+  font-family: 'Oswald', light;
+  font-size: 8em;
+
+}
+
+
+footer {
+  color: #fff;
+  font-family: 'Bree Serif', serif;
+  background: repeating-linear-gradient(
+    -55deg,
+    #2b2d42,
+    #2b2d42 10px,
+    #222 10px,
+    #222 20px
+  );
+}
+
+footer a {
+  color : #fff;
+}
